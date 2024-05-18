@@ -170,7 +170,6 @@ class GameScene extends Phaser.Scene {
     this.policeGroup.children.each(function(item) {
       if (item.y > 1080) {
         this.createPolice()
-        this.createPolice()  
         item.destroy()
       }
     }, this)
